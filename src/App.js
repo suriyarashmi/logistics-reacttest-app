@@ -4,7 +4,7 @@ import react, {Component} from 'react';
 import MenuRecord from './Component/Menu';
 import DriverData from './Component/DriverTable';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import DriverSearch from './Component/DriverSearch';
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
         </nav>
         </div>
         <div className="col-10" >
+          <div><DriverSearch/></div>
         <DriverData /></div>
           
        </div>

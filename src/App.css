@@ -31,13 +31,13 @@
 }
 .vertical-menu {
   width: 120px; /* Set a width if you like */
-  background-color: #7e7979;
+  background-color: #ffffff;
   display: block;
   padding:3px;
 }
 
 .vertical-menu a {
-  background-color: #302f2f; /* Grey background color */
+  background-color: #f43f08; /* red background color */
   color: black; /* Black text color */
   display: block; /* Make the links appear below each other */
   padding: 12px; /* Add some padding */

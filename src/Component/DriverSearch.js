@@ -4,7 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const DriverSearch = () => {
-    const [searchQuery, setSearchQuery] = useState('');
+    
+    const [searchQuery, setSearchQuery] = useState('');   
+  
+
     
     // Function to handle the search input change
     const handleSearchChange = (event) => {
